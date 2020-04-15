@@ -1,0 +1,9 @@
+#ifndef VLASNIK_HPP_INCLUDED
+#define VLASNIK_HPP_INCLUDED
+
+class VLASNIK{
+
+};
+
+
+#endif // VLASNIK_HPP_INCLUDED

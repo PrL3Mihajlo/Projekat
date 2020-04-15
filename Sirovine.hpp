@@ -1,0 +1,8 @@
+#ifndef SIROVINE_HPP_INCLUDED
+#define SIROVINE_HPP_INCLUDED
+
+class SIROVINE{
+
+};
+
+#endif // SIROVINE_HPP_INCLUDED

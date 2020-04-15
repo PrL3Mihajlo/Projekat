@@ -1,0 +1,8 @@
+#ifndef MENAGER_HPP_INCLUDED
+#define MENAGER_HPP_INCLUDED
+
+class MENAGER{
+
+};
+
+#endif // MENAGER_HPP_INCLUDED

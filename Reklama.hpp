@@ -1,0 +1,8 @@
+#ifndef REKLAMA_HPP_INCLUDED
+#define REKLAMA_HPP_INCLUDED
+
+class REKLAMA{
+
+};
+
+#endif // REKLAMA_HPP_INCLUDED

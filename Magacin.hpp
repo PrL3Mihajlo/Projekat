@@ -1,0 +1,8 @@
+#ifndef MAGACIN_HPP_INCLUDED
+#define MAGACIN_HPP_INCLUDED
+
+class MAGACIN{
+
+};
+
+#endif // MAGACIN_HPP_INCLUDED

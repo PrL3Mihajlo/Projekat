@@ -1,0 +1,8 @@
+#ifndef ISPORUKA_HPP_INCLUDED
+#define ISPORUKA_HPP_INCLUDED
+
+class ISPORUKA{
+
+};
+
+#endif // ISPORUKA_HPP_INCLUDED

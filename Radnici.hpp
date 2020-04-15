@@ -1,0 +1,8 @@
+#ifndef RADNICI_HPP_INCLUDED
+#define RADNICI_HPP_INCLUDED
+
+class RADNICI{
+
+};
+
+#endif // RADNICI_HPP_INCLUDED

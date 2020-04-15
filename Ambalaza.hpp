@@ -1,0 +1,8 @@
+#ifndef AMBALAZA_HPP_INCLUDED
+#define AMBALAZA_HPP_INCLUDED
+
+class AMBALAZA{
+
+};
+
+#endif // AMBALAZA_HPP_INCLUDED
