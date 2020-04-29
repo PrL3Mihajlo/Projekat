@@ -2,6 +2,11 @@
 #define ISPORUKA_HPP_INCLUDED
 
 class ISPORUKA{
+protected:
+    string mestoIzvoza;
+    string mestoUvoza;
+    int kilaza;
+
 
 };
 
