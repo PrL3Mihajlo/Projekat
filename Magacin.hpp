@@ -1,16 +1,16 @@
 #ifndef MAGACIN_HPP_INCLUDED
 #define MAGACIN_HPP_INCLUDED
 #include "Isporuka.hpp"
-class MAGACIN
+class Magacin
 {
 protected:
     int prostor;
     bool granica;
-    ISPORUKA i;
+    Isporuka i;
 
 
 public:
-    MAGACIN(int prostor1,bool granica1,string mestoIzvoza1,string mestoUvoza1,int kilaza1):i(mestoIzvoza1,mestoUvoza1,kilaza1)
+    Magacin(int prostor1,bool granica1,string mestoIzvoza1,string mestoUvoza1,int kilaza1):i(mestoIzvoza1,mestoUvoza1,kilaza1)
     {
     }
 

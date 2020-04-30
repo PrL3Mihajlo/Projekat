@@ -2,14 +2,14 @@
 #define COKOLADA_HPP_INCLUDED
 #include "Sirovine.hpp"
 
-class COKOLADA{
+class Cokolada{
     protected:
 string vrsta;
 double kolicina;
 int cena;
-SIROVINE s;
+Sirovine s;
     public:
-        COKOLADA(string vrsta1,double kolicina1,int cena, double procenat1,vrsta v1):s( procenat1, v1)
+        Cokolada(string vrsta1,double kolicina1,int cena, double procenat1,vrsta v1):s( procenat1, v1)
         {
 
         }

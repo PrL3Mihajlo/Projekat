@@ -7,7 +7,7 @@ protected:
     string ime;
     int pib_firme;
     int godina;
-    VLASNIK vlasnik;
+    Vlasnik vlasnik;
 public:
     Firma(string ime1,int jmbg_firme1,int godina1){
     ime=ime1;

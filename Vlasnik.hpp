@@ -1,17 +1,18 @@
 #ifndef VLASNIK_HPP_INCLUDED
 #define VLASNIK_HPP_INCLUDED
+#include "Radnici.hpp"
 
-class VLASNIK
+
+class Vlasnik:public Radnik
 {
     protected:
-    string ime;
-    string prezime;
-    bool pol;
+        double ulaganje;
+
+
     public:
-        VLASNIK(){
-        ime="Mihajlo";
-        prezime="Malinovic";
-        pol=true;
+        Vlasnik(string ime1,string prezime1,bool pol1,pozicija p1,double ulaganje):Radnik(ime1,prezime1,pol1,p1)
+        {
+            ulaganje=ulaganje1;
         }
 
 
