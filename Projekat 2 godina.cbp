@@ -45,6 +45,7 @@
 		<Unit filename="Sirovine.hpp" />
 		<Unit filename="Vlasnik.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="radnici.txt" />
 		<Extensions>
 			<code_completion />
 			<envvars />
