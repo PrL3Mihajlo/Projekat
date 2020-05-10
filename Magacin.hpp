@@ -10,8 +10,10 @@ protected:
 
 
 public:
-    Magacin(int prostor1,bool granica1,string mestoIzvoza1,string mestoUvoza1,int kilaza1):i(mestoIzvoza1,mestoUvoza1,kilaza1)
+    Magacin(int prostor1,bool granica1,string mestoIzvoza1,string mestoUvoza1,int kilaza1,double cena1):i(mestoIzvoza1,mestoUvoza1,kilaza1,cena1)
     {
+        prostor=prostor1;
+        granica=granica1;
     }
 
 };

@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1589147106 source:c:\users\windows 10\documents\github\projekat\main.cpp
+	<iostream>
+	<fstream>
+	"Firma.hpp"
+	"Radnici.hpp"
+	"Vlasnik.hpp"
+	"Cokolada.hpp"
+	"Sirovine.hpp"
+	"Isporuka.hpp"
+	"Magacin.hpp"
+	"Masina.hpp"
+	"Menager.hpp"
+	"Ambalaza.hpp"
+	"Reklama.hpp"
+
+1589145381 c:\users\windows 10\documents\github\projekat\firma.hpp
+	"Vlasnik.hpp"
+
+1589144756 c:\users\windows 10\documents\github\projekat\vlasnik.hpp
+	"Radnici.hpp"
+
+1589145111 c:\users\windows 10\documents\github\projekat\radnici.hpp
+
+1589146204 c:\users\windows 10\documents\github\projekat\cokolada.hpp
+	"Sirovine.hpp"
+
+1589147118 c:\users\windows 10\documents\github\projekat\sirovine.hpp
+
+1589147106 c:\users\windows 10\documents\github\projekat\isporuka.hpp
+
+1589146290 c:\users\windows 10\documents\github\projekat\magacin.hpp
+	"Isporuka.hpp"
+
+1589146329 c:\users\windows 10\documents\github\projekat\masina.hpp
+
+1589147349 c:\users\windows 10\documents\github\projekat\menager.hpp
+
+1589147231 c:\users\windows 10\documents\github\projekat\ambalaza.hpp
+
+1588255779 c:\users\windows 10\documents\github\projekat\reklama.hpp
+

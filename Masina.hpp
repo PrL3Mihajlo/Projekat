@@ -6,7 +6,7 @@ protected:
     double struja;
     bool stanje;
 public:
-    Masina(){
+    Masina(double struja1,bool stanje1){
     struja=struja1;
     stanje=stanje1;
     }
