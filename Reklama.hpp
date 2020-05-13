@@ -1,7 +1,8 @@
 #ifndef REKLAMA_HPP_INCLUDED
 #define REKLAMA_HPP_INCLUDED
 
-class Reklama{
+class Reklama
+{
 protected:
     double cena;
     string TV_kanal;
