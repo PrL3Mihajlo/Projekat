@@ -1,0 +1,9 @@
+#ifndef KASAFIRME_HPP_INCLUDED
+#define KASAFIRME_HPP_INCLUDED
+
+class kasa{
+};
+
+
+
+#endif // KASAFIRME_HPP_INCLUDED

@@ -1,0 +1,6 @@
+#ifndef KASA_HPP_INCLUDED
+#define KASA_HPP_INCLUDED
+
+
+
+#endif // KASA_HPP_INCLUDED

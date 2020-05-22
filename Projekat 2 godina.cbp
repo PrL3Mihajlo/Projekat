@@ -44,6 +44,7 @@
 		<Unit filename="Reklama.hpp" />
 		<Unit filename="Sirovine.hpp" />
 		<Unit filename="Vlasnik.hpp" />
+		<Unit filename="isporuke.txt" />
 		<Unit filename="main.cpp" />
 		<Unit filename="radnici.txt" />
 		<Extensions>

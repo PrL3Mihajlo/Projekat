@@ -1,6 +1,7 @@
 #ifndef FIRMA_HPP_INCLUDED
 #define FIRMA_HPP_INCLUDED
 #include "Vlasnik.hpp"
+#include "Isporuka.hpp"
 
 
 class Firma
@@ -9,21 +10,39 @@ protected:
     string ime;
     int pib_firme;
     int godina;
+    int kasa;
     vector<Radnik*>radnici;
+    vector<Isporuka*>isporuke;
 public:
-    Firma(string ime1,int pib_firme1,int godina1)
+    Firma(string ime1,int pib_firme1,int godina1,int kasa1)
     {
         ime=ime1;
         pib_firme=pib_firme1;
         godina=godina1;
+        kasa=kasa1;
 
 
+    }
+    int getKasa(){
+    return kasa;
     }
      void dodavanje(Radnik &r)
     {
         radnici.push_back(&r);
         cout<<"dodat radnik"<<endl;
     }
+     void dodavanjeisporuke(Isporuka &i){
+         isporuke.push_back(&i);
+     }
+    void ispisIsporuke()
+    {
+       for(auto i = isporuke.begin(); i != isporuke.end(); i++)
+        {
+            cout<<**i<<endl;
+        }
+    }
+
+
     void brisanje()
     {
         string line1,line2;
@@ -55,6 +74,33 @@ public:
         (*it)->ispis();
     }
     }
+    void informacije(){
+    cout<<"ime firme je: "<<ime<<endl;
+    cout<<"Pib firme je: "<<pib_firme<<endl;
+    cout<<"Godina nastanka firme je: "<<godina<<endl;
+    }
+    void NovaIsporuka(){
+    string a;
+    string b;
+    int c;
+    int f;
+    cout<<"Unesite mesto izvoza"<<endl;
+    cin>>a;
+    cout<<"Unesite mesto uvoza"<<endl;
+    cin>>b;
+    cout<<"Unesite kilazu koja se isporucuje"<<endl;
+    cin>>c;
+    cout<<"Unesite cenu isporuke"<<endl;
+    cin>>f;
+    Isporuka* nova=new Isporuka(a,b,c,f);
+    pisiIsporuke("isporuke.txt",*nova,'a');
+    isporuke.push_back(nova);
+    kasa=kasa+(f*c);
+    }
+    void KasaFirme(){
+      cout<<kasa;
+    }
+
 
 
 };
