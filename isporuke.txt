@@ -1,3 +1,4 @@
 Srbija|Bosna|15000|128
 Srbija|Bugarska|26000|128
 Srbija|Hrvatska|13299|128
+Srbija|Bosna|455|128

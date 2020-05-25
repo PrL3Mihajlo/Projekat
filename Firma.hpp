@@ -111,7 +111,7 @@ public:
             cout<<"nemate dovoljno kilaze u magacinu morate napraviti jos cokolade"<<endl;
             return;
         }
-        cout<<"Unesite cenu isporuke"<<endl;
+        cout<<"Unesite cenu isporuke po cokoladi"<<endl;
         cin>>f;
         Isporuka* nova=new Isporuka(a,b,c,f);
         pisiIsporuke("isporuke.txt",*nova,'a');
