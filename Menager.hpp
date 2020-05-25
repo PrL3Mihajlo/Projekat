@@ -19,6 +19,9 @@ public:
     {
         return prezime;
     }
+    void setPozicija(pozicija poz){
+    p=poz;
+    }
     void ispis(){
     Radnik::ispis();
     cout<<"Broj radnika: "<<broj_radnika<<endl;

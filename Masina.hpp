@@ -4,25 +4,32 @@
 class Masina
 {
 protected:
-    double struja;
+    int kilaza;
     bool stanje;
 public:
-    Masina(double struja1,bool stanje1)
+    Masina(int kilaza1,bool stanje1)
     {
-        struja=struja1;
+        kilaza=kilaza1;
         stanje=stanje1;
     }
-    void promena_stanja()
+    int getKilaza(){
+    return kilaza;
+    }
+ void promenaStanja()
     {
-        if(stanje==true)
+        int s;
+        cout<<"ukoliko ocete da upalite masinu pritisnite 1 ukoliko ne pritisnite 0: ";
+        cin>>s;
+        if(s==true)
         {
-            struja=100;
             cout<<"masina je upaljena"<<endl;
+            cout<<"upisite koliko cokolade ocete da proizvedete u kilogramima"<<endl;
+            cin>>kilaza;
+            cout<<"uspesno ste napravili "<<kilaza<<" kg cokolade"<<endl;
 
         }
         else
         {
-            struja=0;
             cout<<"masina ne radi"<<endl;
         }
 

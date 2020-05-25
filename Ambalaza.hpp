@@ -15,10 +15,19 @@ public:
         materijali=materijali1;
 
     }
+    string getboja(){
+    return boja;
+    }
+    string getNaziv(){
+    return naziv_firme;
+    }
+    string getMaterijal(){
+    return materijali;
+    }
+
     friend ostream& operator<<(ostream& izlaz, const Ambalaza& a)
     {
 
-        izlaz<<"Ambalaza - ispis"<<endl;
         izlaz<<"Boja: "<<a.boja<<endl;
         izlaz<<"Naziv firme:"<<a.naziv_firme<<endl;
         izlaz<<"Materijali:"<<a.materijali<<endl<<endl;
@@ -26,6 +35,7 @@ public:
         return izlaz;
 
     }
+
 
 };
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1590193260 source:c:\users\windows 10\documents\github\projekat\main.cpp
+1590447901 source:c:\users\windows 10\documents\github\projekat\main.cpp
 	<iostream>
 	<fstream>
 	<vector>
@@ -15,30 +15,32 @@
 	"Ambalaza.hpp"
 	"Reklama.hpp"
 
-1590193687 c:\users\windows 10\documents\github\projekat\firma.hpp
+1590448280 c:\users\windows 10\documents\github\projekat\firma.hpp
 	"Vlasnik.hpp"
 	"Isporuka.hpp"
+	"Masina.hpp"
 
-1589660343 c:\users\windows 10\documents\github\projekat\vlasnik.hpp
+1590436903 c:\users\windows 10\documents\github\projekat\vlasnik.hpp
 	"Radnici.hpp"
 
-1590179556 c:\users\windows 10\documents\github\projekat\radnici.hpp
+1590436903 c:\users\windows 10\documents\github\projekat\radnici.hpp
 
-1589391443 c:\users\windows 10\documents\github\projekat\cokolada.hpp
+1590444042 c:\users\windows 10\documents\github\projekat\cokolada.hpp
 	"Sirovine.hpp"
+	"Masina.hpp"
 
 1589391442 c:\users\windows 10\documents\github\projekat\sirovine.hpp
 
-1590193599 c:\users\windows 10\documents\github\projekat\isporuka.hpp
+1590193776 c:\users\windows 10\documents\github\projekat\isporuka.hpp
 
 1589146290 c:\users\windows 10\documents\github\projekat\magacin.hpp
 	"Isporuka.hpp"
 
-1589391442 c:\users\windows 10\documents\github\projekat\masina.hpp
+1590448031 c:\users\windows 10\documents\github\projekat\masina.hpp
 
-1589659640 c:\users\windows 10\documents\github\projekat\menager.hpp
+1590436924 c:\users\windows 10\documents\github\projekat\menager.hpp
 
-1589391441 c:\users\windows 10\documents\github\projekat\ambalaza.hpp
+1590444220 c:\users\windows 10\documents\github\projekat\ambalaza.hpp
 
 1589391440 c:\users\windows 10\documents\github\projekat\reklama.hpp
 

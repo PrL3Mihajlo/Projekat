@@ -27,6 +27,9 @@ public:
     {
         return p;
     }
+    void setPozicija(pozicija poz){
+    p=poz;
+    }
     void ispis(){
     Radnik::ispis();
     cout<<"ulaganje: "<<ulaganje<<endl<<endl;

@@ -30,6 +30,9 @@ public:
     {
         return p;
     }
+    void setPozicija(pozicija poz){
+    p=poz;
+    }
     virtual void ispis(){
      cout<<"Ime: "<<ime<<endl;
         cout<<"Prezime: "<<prezime<<endl;

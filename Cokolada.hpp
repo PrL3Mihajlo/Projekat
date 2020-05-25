@@ -1,6 +1,7 @@
 #ifndef COKOLADA_HPP_INCLUDED
 #define COKOLADA_HPP_INCLUDED
 #include "Sirovine.hpp"
+#include "Masina.hpp"
 enum VRSTA_COKOLADE {crna,bela,mlecna};
 
 class Cokolada
