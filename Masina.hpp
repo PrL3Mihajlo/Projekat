@@ -18,13 +18,15 @@ public:
  void promenaStanja()
     {
         int s;
+        int m;
         cout<<"ukoliko ocete da upalite masinu pritisnite 1 ukoliko ne pritisnite 0: ";
         cin>>s;
         if(s==true)
         {
             cout<<"masina je upaljena"<<endl;
             cout<<"upisite koliko cokolade ocete da proizvedete u kilogramima"<<endl;
-            cin>>kilaza;
+            cin>>m;
+            kilaza=kilaza+m;
             cout<<"uspesno ste napravili "<<kilaza<<" kg cokolade"<<endl;
 
         }
