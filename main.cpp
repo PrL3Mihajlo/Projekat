@@ -46,7 +46,7 @@ int main()
 
 
     Firma pa("Milka",453214,2007,10000);
-    Masina ma(1000,true);
+    Masina ma(0,true);
     Ambalaza a1("Ljubicasta","Milka","plastika");
     Radnik r("Mladen","Mirosavljev",true,poslovodja);
     Radnik r2("Nikola", "Pasic", true,vozac);
@@ -85,12 +85,13 @@ int main()
     pa.dodavanjeisporuke(o1);
     pa.dodavanjeisporuke(o2);
     pa.dodavanjeisporuke(o3);
+    cout<<endl;
+    cout<<endl;
     cout<<"Dobrodosli u bazu podataka firme za cokoladu"<<endl;
     cout<<endl;
     cout<<endl;
 
 
-    cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
     cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -99,6 +100,7 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
 
@@ -108,12 +110,11 @@ int main()
     {
 
         cin>>m;
-        fflush;
+       int fflush();
         if(m==1){
             pa.informacije();
             cout<<endl;
             cout<<"------------------------------------------------"<<endl;
-            cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
             cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -122,6 +123,7 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
         }
@@ -130,7 +132,6 @@ int main()
             pa.ispis();
             cout<<endl;
             cout<<"------------------------------------------------"<<endl;
-            cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
             cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -139,6 +140,7 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
                 }
@@ -146,7 +148,6 @@ int main()
             pa.ZaposliRadnika();
             cout<<endl;
             cout<<"------------------------------------------------"<<endl;
-            cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
             cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -155,14 +156,16 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
         }
         if(m==4){
-            pa.ispisIsporuke();
+            //pa.ispisIsporuke();
+            citajTxt("isporuke.txt");
+
             cout<<endl;
             cout<<"------------------------------------------------"<<endl;
-            cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
             cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -171,6 +174,7 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
 
@@ -179,7 +183,6 @@ int main()
             pa.NovaIsporuka(ma);
             cout<<endl;
             cout<<"------------------------------------------------"<<endl;
-            cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
             cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -188,6 +191,7 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
 
@@ -197,7 +201,6 @@ int main()
            pa.KasaFirme();
            cout<<endl;
            cout<<"------------------------------------------------"<<endl;
-           cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
            cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -206,6 +209,7 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
 
          }
@@ -213,7 +217,6 @@ int main()
            pa.UnaprediRadnika();
            cout<<endl;
            cout<<"------------------------------------------------"<<endl;
-    cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
     cout<<"Ukoliko zelite da izadjete iz baze podataka firme pritisnite 0: "<<endl;
     cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
@@ -223,14 +226,13 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
 
          }
          if(m==8){
             ma.promenaStanja();
            cout<<endl;
            cout<<"------------------------------------------------"<<endl;
-    cout<<"Da izadjete iz programa pritisnite 0: "<<endl;
-    cout<<"Ukoliko zelite da izadjete iz baze podataka firme pritisnite 0: "<<endl;
     cout<<"Da saznate podatke firme pritisnite 1 :"<<endl;
     cout<<"Da saznate listu radnika firme pritisnite 2: "<<endl;
     cout<<"Ukoliko zelite da zaposlite novog radnika pritisnite 3: "<<endl;
@@ -239,6 +241,10 @@ int main()
     cout<<"Ako zelite da vidite kasu firme nakon isporuke pritisnite 6: "<<endl;
     cout<<"Ako zelite da unapredite radnika pritisnite 7: "<<endl;
     cout<<"Ako zelite da proizvedete cokoladu pritisnite 8: "<<endl;
+    cout<<"Da izadjete iz programa pritisnite 9: "<<endl;
+         }
+         if(m==9){
+            exit(9);
          }
 
     }while(m!=0);

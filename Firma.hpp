@@ -28,7 +28,6 @@ public:
     {
         return kasa;
     }
-
     void dodavanje(Radnik &r)
     {
         radnici.push_back(&r);
@@ -101,16 +100,17 @@ public:
         string b;
         int c;
         int f;
-        cout<<"Unesite mesto izvoza"<<endl;
+        cout<<"Unesite mesto izvoza : "<<endl;
         cin>>a;
-        cout<<"Unesite mesto uvoza"<<endl;
+        cout<<"Unesite mesto uvoza : "<<endl;
         cin>>b;
-        cout<<"Unesite kilazu koja se isporucuje"<<endl;
+        cout<<"Unesite kilazu koja se isporucuje u kilogramima"<<endl;
         cin>>c;
         if(c>m.getKilaza()){
             cout<<"nemate dovoljno kilaze u magacinu morate napraviti jos cokolade"<<endl;
             return;
         }
+        m.setKilaza(m.getKilaza()-c);
         cout<<"Unesite cenu isporuke po cokoladi"<<endl;
         cin>>f;
         Isporuka* nova=new Isporuka(a,b,c,f);

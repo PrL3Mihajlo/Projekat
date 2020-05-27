@@ -15,6 +15,9 @@ public:
     int getKilaza(){
     return kilaza;
     }
+    void setKilaza(int a){
+     kilaza=a;
+    }
  void promenaStanja()
     {
         int s;
@@ -27,7 +30,8 @@ public:
             cout<<"upisite koliko cokolade ocete da proizvedete u kilogramima"<<endl;
             cin>>m;
             kilaza=kilaza+m;
-            cout<<"uspesno ste napravili "<<kilaza<<" kg cokolade"<<endl;
+            cout<<"Napravili  ste "<<m<<" kg cokolade"<<endl;
+            cout<<"trenutno na stanju imate "<<kilaza<<" kg cokolade"<<endl;
 
         }
         else
