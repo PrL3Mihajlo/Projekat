@@ -161,6 +161,7 @@ int main()
 
         }
         if(m==4){
+             //projekat radi u svakom slucaju i da koristimo funkciju ispisiIisporuke samo sam hteo da u funkciuonalnost ubacim malo i rad sa fajlovima a ne samo sa vektorima
             //pa.ispisIsporuke();
             citajTxt("isporuke.txt");
 

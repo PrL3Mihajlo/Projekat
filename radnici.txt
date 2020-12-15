@@ -1,4 +1,4 @@
 Nikola|Markovic|musko|radnik
 Marko|Nikolic|musko|vozac
 Vesna|Andric|zensko|poslovodja
-*
+

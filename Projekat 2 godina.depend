@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1590605441 source:c:\users\windows 10\documents\github\projekat\main.cpp
+1590606500 source:c:\users\windows 10\documents\github\projekat\main.cpp
 	<iostream>
 	<fstream>
 	<vector>
